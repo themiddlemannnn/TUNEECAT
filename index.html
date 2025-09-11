@@ -229,7 +229,7 @@
                     // This blocks the user's browser/device from claiming another one.
                     localStorage.setItem('pinAlreadyClaimed', 'true');
                 } else {
-                    giveawayElements.pinMessage.textContent = `Sorry, all ${network.toUpperCase()} PINs have been claimed!`;
+                    giveawayElements.pinMessage.textContent = `omo, no ${network.toUpperCase()} PIN dey like this. Check tomorrow`;
                 }
             } catch (error) {
                 console.error("Error getting PIN: ", error);
@@ -264,3 +264,4 @@
     </script>
 </body>
 </html>
+
